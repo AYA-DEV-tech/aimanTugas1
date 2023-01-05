@@ -1,0 +1,345 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+/* komponent */
+
+.fotoUsers{
+    width: 55px;
+    height: 55px;
+}
+
+.garis{
+    padding: 0.1px 90px;
+    background-color: rgb(205, 205, 205);
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navbar .kiri ul li{
+    color: white;
+}
+
+.kiri{
+    align-items: center;
+   
+}
+
+.kecil{
+    width: 40px;
+    height: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a.pos{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+
+/* list */
+.list{
+    
+    background-color: white;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+}
+
+.list ul li{
+    text-align: center;
+    padding: 8px;
+    padding-right: 11px;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* pilihan */
+
+.pilihan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.pilihan a{
+    text-decoration: none;
+    color: white;
+}
+
+.pilihan .pilihan1{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to right,darkblue,blue,lightblue);
+    padding: 10px;
+    padding-right:150px;
+}
+
+.pilihan1 .kanan {
+    font-size: 13px;
+}
+
+.pilihan .pilihan2{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,darkorange,orange,gold);
+    padding: 10px;
+    padding-right:150px;
+}
+
+.pilihan2 .kanan {
+    font-size: 13px;
+}
+
+.pilihan .pilihan3{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,darkred,red,lightsalmon);
+    padding: 10px;
+    padding-right:150px;
+}
+
+.pilihan3 .kanan {
+    font-size: 13px;
+}
+
+.pilihan .pilihan4{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,darkgreen,green,lightgreen);
+    padding: 10px;
+    padding-right:150px;
+}
+
+.pilihan4 .kanan {
+    font-size: 13px;
+}
+
+/* informasi */
+
+.informasi{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.grafik {
+    width: 60%;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+.grafik .judul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grafik .judul h1{
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+}
+
+.grafik .judul .aksi {
+    display: flex;
+    align-items: center;
+}
+
+.langganan{
+    width: 35%;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.langganan .judul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.langganan .judul h1{
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+}
+
+.langganan .judul .aksi{
+    display: flex;
+    align-items: center;
+}
+
+.langganan .users {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.langganan .users .kiri{
+    display: flex;
+}
+
+/* informasi 2 */
+
+.informasi2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top:10px;
+}
+
+.informasi2 .table {
+    background-color: white;
+    width: 61%;
+    padding: 10px;
+}
+
+.informasi2 .table .judul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informasi2 .table .judul h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.informasi2 .table .aksi .AddSale{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color:mediumseagreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.informasi2 .table .aksi .Manage{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(48, 207, 120);
+    border: none;
+    border-radius: 5px;
+}
+
+.informasi2 .income {
+    width: 35%;
+    background-color: white;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.informasi2 .income h1{
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+/* informasi 3 */
+
+.informasi3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informasi3 .recent{
+    margin: 20px;
+    margin-top: 0;
+    padding: 10px;
+    width: 59%;
+    background-color: white;
+}
+
+.informasi3 .recent .judul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informasi3 .recent .judul h1{
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+.informasi3 .stock {
+    margin: 20px;
+    margin-top: 0;
+    width: 35%;
+    padding: 10px;
+    background-color: white;
+}
+
+/* informasi4 */
+
+.informasi4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informasi4 .cash{
+    background-color: white;
+    margin: 20px;
+    margin-top: 0;
+    padding: 10px;
+    width: 59% ;
+}
+
+.informasi4 .cash .aksi .income {
+    background-color: black;
+    color: mediumseagreen;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+.informasi4 .cash .aksi .expenses {
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: mediumseagreen;
+    border-radius: 5px;
+}
+
+.informasi4 .task{
+    background-color: white;
+    margin: 20px;
+    margin-top: 0;
+    padding: 10px;
+    width: 35%;
+}
+
+.informasi4 .task .aksi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

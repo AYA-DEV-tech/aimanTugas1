@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* komponent */
+
+.kecil{
+    width: 50px;
+    height: 50px;
+}
+
+.sedang{
+    width: 100px;
+    height: 100px;
+}
+
+.besar{
+    width: 120px;
+    height: 120px;
+}
+
+.text-kecil{
+    font-size: 12px;
+}
+
+.garis{
+    padding: 0.1px 90px;
+    background-color: rgb(205, 205, 205);
+}
+
+
+li{
+    list-style: none;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navbar .kiri ul li{
+    color: white;
+}
+
+.kiri{
+    align-items: center;
+}
+
+.kecilFoto{
+    width: 40px;
+    height: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a.pos{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+
+/* list */
+.list{
+    
+    background-color: white;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+}
+
+.list ul li{
+    text-align: center;
+    padding: 8px;
+    padding-right: 11px;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* update */
+
+.column{
+   width: 48%;
+}
+
+.update{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aksi{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aksi p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+

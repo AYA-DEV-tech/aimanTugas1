@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-image: url('../img/loginBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/* login */
+
+.logo {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.login{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.garis{
+    padding: 0.1px 90px;
+    background-color: rgb(205, 205, 205);
+}
+
+.kelompokInput {
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.kelompokInput .tanda{
+    background-color: white;
+    border: 1px solid  rgb(205, 205, 205);
+    border-radius: 5px 0px 0px 0px;
+    border-right: none;
+    padding-left: 8px;
+    padding: 8px;
+}
+
+.kelompokInput input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid  rgb(205, 205, 205);
+    border-radius: 0px 5px 0px 0px;
+    border-left: none;
+}
+
+.kelompokInput input[type="text"] {
+    outline: none;
+}
+
+.kelompokInput2 {
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.kelompokInput2 .tanda{
+    background-color: white;
+    border: 1px solid  rgb(205, 205, 205);
+    border-radius: 0px 0px 0px 5px;
+    border-right: none;
+    border-top: none;
+    padding-left: 8px;
+    padding: 8px;
+}
+
+.kelompokInput2 input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid  rgb(205, 205, 205);
+    border-radius: 0px 0px 5px 0px;
+    border-left: none;
+    border-top: none;
+}
+
+.kelompokInput2 input[type="password    "] {
+    outline: none;
+}
+
+.kelompokInput3{
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kelompokInput3 div a.lupaPassword {
+    text-decoration: none;
+    color:lightseagreen;
+}
+
+.submit{
+    text-align: center;
+    width: 100%;
+    background-color: lightseagreen;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+
